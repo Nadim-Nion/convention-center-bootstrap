@@ -9,11 +9,109 @@
     <!-- Bootstrap CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <!--Custom CSS  Link -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
+        <!------------------- 
+            Navigation Bar 
+        --------------------->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#">Found OneLove Convention Center</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Subscribe</a>
+                        </li>
 
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+
+        <!--------------------------- 
+            Image Sliders: Carousel 
+        ---------------------------->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/wedding5.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block convention-text-color">
+                        <h1 class="fs-1">The perfect venue for your
+                            next event</h1>
+                        <p>FIND SUITABLE VENUE FOR YOUR EVENT AND BOOK ONLINE
+                            Tumeric Night, Wedding Party, Corporate Meeting, Fair, Birthday Party & etc...</p>
+                        <!-- <button class="btn convention-btn rounded">Book Now</button> -->
+                        <a href="https://www.mconventions.com/?gclid=Cj0KCQjwwtWgBhDhARIsAEMcxeB33eUjPOLFkoapoiiyg5kUim4Lcyb_c9ikDJx2HkOQOqjnvx16EEoaAnMEEALw_wcB"
+                            target="_blank"><button class="btn convention-btn rounded">Book Now</button></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/wedding6.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block convention-text-color">
+                        <h1 class="fs-1">The perfect venue for your
+                            next event</h1>
+                        <p>FIND SUITABLE VENUE FOR YOUR EVENT AND BOOK ONLINE
+                            Tumeric Night, Wedding Party, Corporate Meeting, Fair, Birthday Party & etc...</p>
+                        <a href="https://www.mconventions.com/?gclid=Cj0KCQjwwtWgBhDhARIsAEMcxeB33eUjPOLFkoapoiiyg5kUim4Lcyb_c9ikDJx2HkOQOqjnvx16EEoaAnMEEALw_wcB"
+                            target="_blank"><button class="btn convention-btn rounded">Book Now</button></a>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/wedding7.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block convention-text-color">
+                        <h1 class="fs-1">The perfect venue for your
+                            next event</h1>
+                        <p>FIND SUITABLE VENUE FOR YOUR EVENT AND BOOK ONLINE
+                            Tumeric Night, Wedding Party, Corporate Meeting, Fair, Birthday Party & etc...</p>
+                        <a href="https://www.mconventions.com/?gclid=Cj0KCQjwwtWgBhDhARIsAEMcxeB33eUjPOLFkoapoiiyg5kUim4Lcyb_c9ikDJx2HkOQOqjnvx16EEoaAnMEEALw_wcB"
+                            target="_blank"><button class="btn convention-btn rounded">Book Now</button></a>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </header>
 
     <main>
