@@ -30,3 +30,19 @@ body {
     padding-right: 25px;
     font-weight: 700;
 }
+
+.package-fontcolor {
+    color: black;
+}
+
+.choose-plan-btn {
+    color: #3F87F5;
+    background-color: whitesmoke;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 40px;
+}
+
+.wedding-plus {
+    background-color: #3F87F5;
+}
