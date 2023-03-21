@@ -1,7 +1,18 @@
 
 # Convention Center Bootstrap (Assignment 3)
 
-This is responsive web page of a OneLove Convention Center. I have used Bootstrap to build the whole web page. I have used some Custom CSS classes to modify the design according to my requirements. This is my 5th Bootstrap project. 
+### Bootstrap 5 Responsive Website
+This is a responsive website built using Bootstrap 5, and it represents my fifth project using this popular front-end framework. The site features several pages with different layouts, all optimized for various screen sizes, from desktop to mobile.
+
+### Key Features
+Fully responsive design, optimized for all devices and screen sizes
+Built using Bootstrap 5, with all the latest components and features
+Modern, sleek design with a focus on usability and user experience
+Multiple pages with different layouts, including a homepage, product pages, and contact form
+Custom CSS styling to further enhance the look and feel of the site
+
+### Getting Started
+To get started with this project, simply clone the repository to your local machine and open the index.html file in your favorite web browser. The site should load up and display properly on any device or screen size.
 
 
 ## Live Website
