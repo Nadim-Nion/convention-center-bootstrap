@@ -18,6 +18,9 @@
 
     <!--Custom CSS Link -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/61a4876fe2.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -73,8 +76,8 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-12">
                                 <img src="images/wedding5.png" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block convention-text-color">
-                                    <h1 class="fs-1">The perfect venue for your
+                                <div class="carousel-caption  d-md-block convention-text-color">
+                                    <h1 class="fs-1 fw-bold">The perfect venue for your
                                         next event</h1>
                                     <p>FIND SUITABLE VENUE FOR YOUR EVENT AND BOOK ONLINE
                                         Tumeric Night, Wedding Party, Corporate Meeting, Fair, Birthday Party & etc...
@@ -91,8 +94,8 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-12">
                                 <img src="images/wedding6.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block convention-text-color">
-                                    <h1 class="fs-1">The perfect venue for your
+                                <div class="carousel-caption  d-md-block convention-text-color">
+                                    <h1 class="fs-1 fw-bold">The perfect venue for your
                                         next event</h1>
                                     <p>FIND SUITABLE VENUE FOR YOUR EVENT AND BOOK ONLINE
                                         Tumeric Night, Wedding Party, Corporate Meeting, Fair, Birthday Party & etc...
@@ -108,8 +111,8 @@
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-12">
                                 <img src="images/wedding7.jpg" class="d-block w-100" alt="...">
-                                <div class="carousel-caption d-none d-md-block convention-text-color">
-                                    <h1 class="fs-1">The perfect venue for your
+                                <div class="carousel-caption  d-md-block convention-text-color">
+                                    <h1 class="fs-1 fw-bold">The perfect venue for your
                                         next event</h1>
                                     <p>FIND SUITABLE VENUE FOR YOUR EVENT AND BOOK ONLINE
                                         Tumeric Night, Wedding Party, Corporate Meeting, Fair, Birthday Party & etc...
@@ -134,10 +137,50 @@
                 </button>
             </div>
         </section>
+
     </header>
 
     <main>
+        <!-- Let's get planning -->
+        <section class="container my-5 get-planning-bg-color">
+            <h1 class="fw-bold">Let's Get Planning</h1>
+            <p>We'd love to hear your event. Fill out our Event Enquiries form and let's bring your vision to reality.
+            </p>
+            <!-- <button class="btn get-planning-btn">Get Started</button> -->
 
+            <!-- Toast -->
+            <button type="button" class="btn btn-primary" id="liveToastBtn">Get Started</button>
+
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                        <!-- <img src="..." class="rounded me-2" alt="..."> -->
+                        <strong class="me-auto">OneLove</strong>
+                        <small>11 mins ago</small>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body">
+                        <i class="fa-solid fa-gift me-2"></i>
+                        20% off on next booking
+                    </div>
+                </div>
+            </div>
+
+            <!-- JavaScript for Toast -->
+            <script>
+                const toastTrigger = document.getElementById('liveToastBtn')
+                const toastLiveExample = document.getElementById('liveToast')
+                if (toastTrigger) {
+                    toastTrigger.addEventListener('click', () => {
+                        const toast = new bootstrap.Toast(toastLiveExample)
+
+                        toast.show()
+                    })
+                }
+            </script>
+
+
+        </section>
     </main>
 
     <footer>

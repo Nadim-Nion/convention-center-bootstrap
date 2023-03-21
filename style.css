@@ -9,7 +9,22 @@ body {
 }
 
 .convention-btn {
-    background-color: black;
+    background-color: whitesmoke;
+    color: #3F87F5;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: 700;
+}
+
+.get-planning-bg-color {
+    background-color: whitesmoke;
+    color: black;
+    padding: 50px;
+    text-align: center;
+}
+
+.get-planning-btn {
+    background-color: #3F87F5;
     color: whitesmoke;
     padding-left: 25px;
     padding-right: 25px;
