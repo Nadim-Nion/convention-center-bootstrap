@@ -43,12 +43,24 @@ body {
     margin-left: 40px;
 }
 
+.hot-offer {
+    background-color: #FF4E4E;
+    width: 46px;
+    height: 27px;
+    margin-left: 230px;
+    color: whitesmoke;
+}
+
 .wedding-plus {
     background-color: #3F87F5;
 }
 
 .collapse-btn {
     background-color: whitesmoke;
+}
+
+.faq-mt {
+    margin-top: 110px;
 }
 
 .footer-bg-color {
