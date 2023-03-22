@@ -2,13 +2,13 @@
 # Convention Center Bootstrap (Assignment 3)
 
 ### Bootstrap 5 Responsive Website
-This is a responsive website built using Bootstrap 5, and it represents my fifth project using this popular front-end framework. The site features several pages with different layouts, all optimized for various screen sizes, from desktop to mobile.
+This is a responsive website built using Bootstrap 5, and it represents my fifth project using this popular front-end framework. The site features single page with different layouts, all optimized for various screen sizes, from desktop to mobile.
 
 ### Key Features
 Fully responsive design, optimized for all devices and screen sizes
 Built using Bootstrap 5, with all the latest components and features
-Modern, sleek design with a focus on usability and user experience
-Multiple pages with different layouts, including a homepage, product pages, and contact form
+Modern, sleek design with a focus on usability and user experience.
+One page with different layouts.
 Custom CSS styling to further enhance the look and feel of the site
 
 ### Getting Started
